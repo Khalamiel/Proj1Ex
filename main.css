@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: white;
+    color: black;
+    font-family: "Cinzel Decorative";
+}
+
+header .container ul {
+    margin-right: 140px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Cinzel'
+}
+
+header .container {
+    padding: 35px;
+}
+
+header .container h1 {
+    margin-left: 200px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+header .container,
+#about .container,
+#contact .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#tk {
+    height: 500px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+#about p {
+    text-align: center;
+    max-width: 350px;
+    margin-right: 120px;
+}
+
+#about h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    margin-right: 120px;
+}
+
+#sectitle {
+    text-align: center;
+    font-family: "Cinzel Decorative";
+}
+
+#books {
+    background-color: white;
+    color: black;
+}
+
+#books h2 {
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+#books .container ul {
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.container ul img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+form {
+    margin-left: 200px;
+    max-width: 300px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+#contact h2 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#contact h3 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#contact ul {
+    margin-right: 200px;
+    list-style: none;
+    max-width: 300px;
+}
+
+#contact li {
+    display: inline-block;
+}
+
+#contact img {
+    width: 100px;
+    margin: 0  10px 20px;
+}
+
+footer {
+    text-align: center;
+}
